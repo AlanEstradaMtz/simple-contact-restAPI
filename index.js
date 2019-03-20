@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 // Connect to Mongoose and set connection variable
-mongoose.connect('mongodb://108.174.199.51/reinvsol-contacts');
+mongoose.connect('mongodb://172.30.135.49/reinvsol-contacts');
 var db = mongoose.connection;
 // Setup server port
 var port = process.env.PORT || 8080;
